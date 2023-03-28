@@ -1,10 +1,8 @@
 from tkinter import *
 import mysql.connector
 
-
 root= Tk() 
 
-             
 bg_color = 'teal'
 
 def submit():
@@ -25,7 +23,6 @@ def submit():
     mycursor.execute(sql, val)
     mydb.commit()
    
-    
     submit_message.config(text='Hey,Registration Form Submitted Successfully...')
     
 
@@ -89,7 +86,6 @@ locationentry.grid(row=6,column=2)
  
 submit_button = Button(frame1, text="Submit", command= submit)
 submit_button.grid(row=7, column=2, sticky= W,padx=0,pady=10)
-
 
 submit_frame= Frame(root, width=450, height=10, bg= bg_color)
 submit_frame.grid(row=10, column=0, sticky= W, padx= 1, pady= 80)
