@@ -1,10 +1,8 @@
 from tkinter import *
 import mysql.connector
 
-
 root= Tk() 
-
-             
+            
 bg_color = 'teal'
 
 def submit():
