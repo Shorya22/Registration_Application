@@ -2,11 +2,7 @@ from tkinter import *
 import mysql.connector
 
 root= Tk() 
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> f0b9e7ea8adb0368df9f5a19cd67d70f69e7dbcd
 bg_color = 'teal'
 
 def submit():
